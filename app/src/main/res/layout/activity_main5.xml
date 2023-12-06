@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A7A7A"
+    android:backgroundTint="#7A7A7A"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="353dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="68dp"
+        android:text="Третий сезон"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="384dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/sez3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="349dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="195dp"
+        android:backgroundTint="#913434"
+        android:text="С прибытием стаи Альф в город и обнаружением того, что они убили Эрику и похитили Бойда, Скотт и его друзья сталкиваются с волной убийств и жертв. Тем временем Девкалион, лидер стаи Альфа, полон решимости развратить Скотта и помешать ему стать настоящим Альфой, чтобы он мог присоединиться к своей стае."
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="serif"
+        android:onClick="naz3"
+        android:text="Назад"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>
